@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+.dawning-of-a-new-day-regular {
+  font-family: "Dawning of a New Day", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+body {
+	background-color: #F2ACC6;
+	background-image: url(../images/doodleBackground.png)
+}
+.navbar {
+	background-color: #0678BF !important;
+}
+.navbar-brand {
+	color: white !important;
+	font-family: Red Hat Display;
+}
+.nav-link {
+	color: white !important;
+	font-family: Red Hat Display;
+}
+a:hover {
+	color: #F26D6D !important;
+}
+#mainHeader {
+	display: flex;
+	align-content: center;
+	justify-content: center;	
+}
+
+#btnContainer {
+	display: flex;
+    justify-content: center;
+}
+#contactBtn {
+	width: 150px;
+	height: 60px;
+	font-family: Red Hat Display;
+	font-size: 20px;
+}
+#contactBtn:hover {
+	transform: scale(1.05);
+}
+h2 {
+	font-family: Red Hat Display;
+	font-size: 60px;
+	text-align: center;
+	color: #284F40;
+	padding: 20px;
+}
+h2:hover {
+	transform: scale(1.05);
+}
+.img-fluid:hover {
+	transform: scale(1.05);
+}
+p {
+	font-family: EB Garamond;
+	font-size: 30px;
+}
+#aboutMe {
+	background-color: #58A681;
+	border-radius: 20px;
+	color: #284F40;
+	margin: 20px;
+	padding: 20px
+}
+#myWork {
+	background-color: #F26D6D;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+#myWork h2 {
+	color: #692D2D;
+}
+#bodyText1 {
+	background-color: #0678Bf;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+#bodyText1 h2 {
+	color: #012A45;
+}
+.btn-primary {
+	background-color: #f2dd72 !important;
+	color: #4F4224 !important;
+}
+.myworkHeader {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.imageGallery {
+	margin: 100px;	
+}
+.imageGallery p {
+	font-family: Red Hat Display;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px;
+}
+#contactmeBtn {
+	width: 150px;
+	height: 60px;
+	font-family: Red Hat Display;
+	font-size: 20px;
+	text-align: center;
+}
+.contactbutton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+	
+}
+.contactMeHeader {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.formSection {
+	background-color: #0678BF;
+	padding: 30px;
+	width: 800px;
+	border-radius: 40px;
+}
+#helloJamie {
+	background-color: #f2dd72;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	align-content: center;
+	margin: auto;
+	box-shadow: 3px 3px 15px black;
+	rotate: -10deg;
+}
+.postIt {
+	background-color: #f2dd72;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	align-content: center;
+	margin: auto;
+	padding: 15px;
+	box-shadow: 3px 3px 15px black;
+	rotate: 10deg;
+	
+}
+#postIt1 {
+	background-color: #0678Bf;
+}
+#postIt2 {
+	background-color: #F26D6D;
+}
+#postIt3 {
+	background-color: #58A681;
+	rotate: -10deg;
+}
+#helloJamie:hover {
+	transform: rotate(10deg);
+}
+.postIt:hover {
+	transform: rotate(-10deg);
+}
+#mainHeader {
+	hover: none;
+}
+.mockupText {
+	background-color: white;
+	width: 600px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	border-radius: 20px;
+
+}
+.formSection {
+	margin: auto;
+	margin-bottom: 100px;
+}
+label {
+	font-family: Red Hat Display;
+	color: white;
+}
+.getinTouch {
+	background-color: #0678Bf;
+	width: 700px;
+	margin: auto;
+	margin-bottom: 90px;
+	border-radius: 20px;
+	border-color: white;
+	border-style: solid;
+	color: white;
+}
